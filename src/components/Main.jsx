@@ -38,7 +38,7 @@ const Main = ({ Colors }) => {
     document.querySelector(".icon").style.color = Colors[random];
     document.querySelector(".tweet-quote").style.color = Colors[random];
     document.querySelector(".tumblr-quote").style.color = Colors[random];
-    console.log(Colors[random]);
+ 
     backgroundColorChange1.current.style.backgroundColor = Colors[random];
     document.body.style.backgroundColor = Colors[random];
   }, [quote]);
