@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  outline: none;
+}
+.card {
+  outline: none;
+  width: 100%;
+}
+#text {
+  font-size: 1.1em;
+  word-spacing: 1px;
+  /* transition: 0.1s ease-in-out; */
+}
+#text::first-letter {
+  font-size: 30px;
+  text-decoration: solid;
+  text-transform: uppercase;
+}
+.card-body {
+  position: relative;
+ 
+}
+.icon {
+  position: absolute;
+
+  left: 0;
+}
+.icon {
+  margin-right: 0.4em;
+}
+@media only screen and (max-width: 340px) {
+  html {
+    font-size: 15px;
+  }
+  #quote-box {
+    transform: scale(0.8, 1);
+  }
+  #text {
+    word-spacing: 0;
+  }
+}
+#author {
+  display: flex;
+  justify-content: flex-end;
+}
+#author p {
+  font-size: 1em;
+  font-weight: 700;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#new-quote {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 1em;
+  opacity: 1;
+  cursor: pointer;
+}
+#new-quote:hover{
+  opacity: 0.9;
+}
+#tweet-quote-2 {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#tumblr-quote-2 {
+  font-size: 1.8em;
+  cursor: pointer;
+}
+#new-quote p {
+  padding-top: 13px;
+}
+
+#tweet-quote:hover {
+  opacity: 0.9;
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
+#tumblr-quote:hover {
+  opacity: 0.9;
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
+
